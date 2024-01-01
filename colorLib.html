@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="colorLib.css" />
+    <title>ColorLib</title>
+  </head>
+  <style>
+    #topp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: none;
+      z-index: 1;
+      border-width: 11px;
+      border-style: solid;
+      border-color: transparent transparent #444 transparent;
+      transition: 0.3s;
+    }
+    #topp:hover {
+      border-color: transparent transparent black transparent;
+    }
+  </style>
+
+  <body>
+    
+    <span id="topp" onclick="topFunction()"></span>
+
+
+    <div class="container">
+      <div class="header">
+        <div class="header_section">
+          <div class="header_left">
+            <i class="fa-brands fa-wordpress"></i>
+            <span class="text">
+              Our free WordPress themes are downloaded over 5 MILLION times.
+            </span>
+            <a href="#">Get them now!</a>
+          </div>
+          <div class="header_right">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-solid fa-wifi"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-solid fa-headphones"></i>
+          </div>
+        </div>
+      </div>
+      <!-- navbar -->
+      <div class="navbar">
+        <div class="nav_container" id="nav_container">
+          <div class="section">
+            <div class="nav_left">
+              <span class="colorLib">Colorlib</span>
+              <i id="bar" class="fa-solid fa-bars"></i>
+            </div>
+            <div class="nav_right" id="nav_right">
+              <a href="">Home</a>
+              <a href="">Suppert</a>
+              <a href="">Frree Themes</a>
+              <a href="">Premium Themes</a>
+              <a href="">Website Template</a>
+              <a href="">Blog</a>
+              <a href="">Account</a>
+              <input id="input" type="text" placeholder="Search..." />
+              <span id="times">&times;</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Templates -->
+      <div class="Temp_color">
+        <div class="width_90">
+          <div class="template_container">
+            <div class="template">
+              <span>Templates</span>
+            </div>
+            <div class="temp_right">
+              <a href="">Home </a>
+              <a href="" class="symbol">&#8811;</a>
+              <a href="">HTML & CSS Website Templates</a>
+              <a href="" class="symbol">&#8811;</a>
+              <a href="">Business</a>
+              <a href="" class="symbol">&#8811;</a>
+              <a href="" class="acent">Accent</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Accent -->
+      <div class="width_90">
+        <div class="Accent">
+          <div class="acent_item">
+            <span class="text">Accent</span>
+          </div>
+          <div class="acent_item">
+            <span>
+              <i class="fa-regular fa-clock"></i>
+              <a href="" class="not">November 30, 2021</a>
+            </span>
+            <span>
+              <i class="fa-solid fa-user"></i>
+              <a href="">Aigars Silkalns</a>
+            </span>
+            <span>
+              <i class="fa-regular fa-file"></i>
+              <a href="">Business, One Page, Portfolio</a>
+            </span>
+          </div>
+          <img src="./images/accent-free-template.jpg" alt="" />
+        </div>
+      </div>
+      <!-- Templates Details -->
+      <div class="width_90">
+        <div class="template_details">
+          <div class="template_details_one">
+            <label class="tem_size tem_size_one">Template Details</label>
+            <span><strong>Author:</strong>Colorlib</span>
+            <span><strong>Released:</strong>June 2023</span>
+            <span><strong>License:</strong>CC BY 3.0</span>
+            <span><strong>Credits:</strong>Images from Unsplash</span>
+          </div>
+          <div class="template_details_two">
+            <span class="tem_size tem_size_two">Description</span>
+            <p>
+              Accent is a modern and sophisticated free web design studio
+              website template. Accent makes sure to deliver all your content
+              stunningly with a clean and minimalistic approach to the
+              appearance. Regardless of the device and platform they use, your
+              website will look all the time seamlessly and provide a
+              first-grade experience for all your visitors. Accent is also a
+              fantastic resource for agencies, freelancers, and small
+              businesses. Besides, Accent sports a one-page layout which ensures
+              all the details and information are just a few scrolls away.
+            </p>
+            <p>
+              The bundle of goodies includes a full-screen slider, services
+              section, hover effects, sticky details, and a working contact
+              form. Accent also features a newsletter subscription widget,
+              social media icons, sticky header, and testimonials. The default
+              layout already rocks a flexible and fluid design that is in tune
+              with web browsers and retina screens.
+            </p>
+          </div>
+        </div>
+        <div class="prev">
+          <i class="fa-solid fa-eye"></i>
+          <span>Preview</span>
+        </div>
+      </div>
+      <!-- Pricing -->
+      <div class="width_90">
+        <div class="prince">Pricing Accent</div>
+        <div class="pricing_card">
+          <div class="pricing_card_four card1">
+            <div class="pricing_card_span">
+              <span>PREMIUM SUPPORT</span>
+            </div>
+            <div class="pricing_card_span">
+              <span>TEMPLATE UPDATES</span>
+              <i class="fa-solid fa-question"></i>
+            </div>
+            <div class="pricing_card_span">
+              <span>SUPPORT & UPDATES</span>
+              <i class="fa-solid fa-question"></i>
+            </div>
+            <div class="pricing_card_span">
+              <span>ACCESS ALL TEMPLATES</span>
+              <i class="fa-solid fa-question"></i>
+            </div>
+          </div>
+          <div class="pricing_card_four card">
+            <span class="single">SINGLE</span>
+            <span class="num num1"><sup>$</sup>19</span>
+            <span class="tick_color nth-child"
+              ><i class="fa-solid fa-check"></i
+            ></span>
+            <span class="tick_color"><i class="fa-solid fa-check"></i></span>
+            <span class="tick_color nth-child">FOR 1 YEAR</span>
+            <span class="tick_color tick_times">&times;</span>
+            <button>BUY BOW</button>
+          </div>
+          <div class="pricing_card_four card">
+            <span class="single">MEMBERSHIP</span>
+            <span class="num num2"><sup>$</sup>129</span>
+            <span class="tick_color nth-child"
+              ><i class="fa-solid fa-check"></i
+            ></span>
+            <span class="tick_color"><i class="fa-solid fa-check"></i></span>
+            <span class="tick_color nth-child">FOR 1 YEAR</span>
+            <span class="tick_color">FOR 1 YEAR</span>
+            <button>BUY BOW</button>
+          </div>
+          <div class="pricing_card_four card">
+            <span class="single">LIFETIME</span>
+            <span class="num num3"> <sup>$</sup>349</span>
+            <span class="tick_color nth-child"
+              ><i class="fa-solid fa-check"></i
+            ></span>
+            <span class="tick_color"><i class="fa-solid fa-check"></i></span>
+            <span class="tick_color nth-child">FOR lIFE</span>
+            <span class="tick_color">FOR lIFE</span>
+            <button>BUY BOW</button>
+          </div>
+        </div>
+      </div>
+      <!-- Share This -->
+      <div class="width_90">
+        <div class="multiple_button">
+          <div class="button_item">
+            <span>Share This</span>
+          </div>
+          <div class="color_button">
+            <span><i class="fa-brands fa-facebook-f"></i>Facebook</span>
+            <span><i class="fa-brands fa-twitter"></i>Twitter</span>
+            <span><i class="fa-brands fa-pinterest"></i>Pinterest</span>
+            <span><i class="fa-brands fa-linkedin-in"></i>Linkeden</span>
+          </div>
+        </div>
+        <!-- Similar Templates   -->
+        <div class="similar_Templates">
+          <h3>Similar Templates</h3>
+        </div>
+        <div class="templates_img">
+          <div class="responsive">
+            <img
+              src="./images/smT1.jpg"
+              alt="Mountains"
+              width="100%"
+              height= "auto"
+            />
+          </div>
+          <div class="responsive">
+            <img
+              src="./images/smT2.jpg"
+              alt="Mountains"
+              width="100%"
+              height= "auto"
+            />
+          </div>
+          <div class="responsive">
+            <img
+              src="./images/smT3.jpg"
+              alt="Mountains"
+              width="100%"
+              height= "auto"
+            />
+          </div>
+        </div>
+        <div class="templates_img">
+          <div class="responsive">
+            <img
+              src="./images/smT4.jpg"
+              alt="Mountains"
+              width="100%"
+              height= "auto"
+            />
+          </div>
+          <div class="responsive">
+            <img
+              src="./images/smT5.jpg"
+              alt="Mountains"
+              width="100%"
+              height= "auto"
+            />
+          </div>
+          <div class="responsive">
+            <img
+              src="./images/smT6.jpg"
+              alt="Mountains"
+              width="100%"
+              height= "auto"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- Arrow -->
+      <div class="arrow">
+        <div class="width_90">
+          <div class="arrow_item">
+            <div class="arrow_right">
+              <span>&#8800;</span>
+              <span style="font-size: 16px;">Inds</span>
+            </div>
+            <div class="arrow_left">
+              <span style="font-size: 15px;">WishPar</span>
+              <span>&#8811;</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="fotter_callout">
+        <div class="width_90">
+          <div class="arrow_item">
+              <span>We change everything WordPress. One WordPress theme at a time.</span>
+              <button>Find out more!</button>
+          </div>
+        </div>
+      </div>
+      <!-- blck_footer -->
+      <div class="blck_footer">
+        <div class="width_90">
+          <div class="blck_contauner">
+            <div class="blck_left">
+              <span class="color_pos">colorlib <sub><a href=""></a></sub></span>
+              <span>We change everything WordPress.</span>
+              <span>One WP theme at a time.</span>
+            </div>
+            <div class="blck_right">
+              <span>About Colorlib</span>
+              <span>Adversite</span>
+              <span>WordPress Themes</span>
+              <span>Website Templates</span>
+              <span>Bootstrap Template</span>
+              <span>- Support Policy</span>
+              <span>Contact us</span>
+              <span>We are Hiring</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text_footer">
+        <div class="width_90">          
+          <p class="blck_p">Copyright 2013-2023 colorlib.com | operated by Divilab LLC Privacy Policy | Site Terms & Disclosures.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="colorLib.js"></script>
+  
+  <script></script>
+</html>
